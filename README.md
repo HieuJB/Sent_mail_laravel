@@ -54,5 +54,6 @@ use Queueable, SerializesModels;
     <h1>{{ $details['title'] }}</h1>
     <p>{{ $details['body'] }}</p>
     
-    
+    Tạo router 
+    Route::get('/email',[gmail_controller::class,'sendgmail']);
 
