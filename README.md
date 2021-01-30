@@ -57,3 +57,4 @@ use Queueable, SerializesModels;
     Tạo router 
     Route::get('/email',[gmail_controller::class,'sendgmail']);
 
+Truong hop up len host ma gmail tai khoan moi khong cho chay thi vao link nay https://accounts.google.com/DisplayUnlockCaptcha
