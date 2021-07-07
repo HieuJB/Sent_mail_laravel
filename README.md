@@ -58,3 +58,4 @@ use Queueable, SerializesModels;
     Route::get('/email',[gmail_controller::class,'sendgmail']);
 
 Truong hop up len host ma gmail tai khoan moi khong cho chay thi vao link nay https://accounts.google.com/DisplayUnlockCaptcha
+Truong hop bi loi thi nhan vao day https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Np4PG1DE4bstcHf2Gj8IHCpntsqwSDa9SItLruNrSfOKKVs98EHJ6dxpnCoKD20VvoaJdk18uMFWJ8FlWztMFO4_2v6Q
